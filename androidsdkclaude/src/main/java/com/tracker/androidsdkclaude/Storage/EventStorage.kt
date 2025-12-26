@@ -14,6 +14,7 @@ class EventStorage(context: Context) {
         private const val PREFS_NAME = "EventTrackerPrefs"
         private const val KEY_EVENTS = "persisted_events"
         private const val KEY_DEVICE_ID = "device_id"
+        private const val KEY_USER_ID = "user_id"
     }
 
     fun saveEvents(events: List<Event>) {
@@ -42,4 +43,9 @@ class EventStorage(context: Context) {
     fun loadDeviceId(): String? {
         return prefs.getString(KEY_DEVICE_ID, null)
     }
+    fun saveUserId(id: String) {
+        prefs.edit().putString(KEY_USER_ID, id).apply()
+    }
+
+    fun getUserId(): String? = prefs.getString(KEY_USER_ID, null)
 }
