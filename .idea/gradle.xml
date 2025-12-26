@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/androidsdk" />
             <option value="$PROJECT_DIR$/androidsdkclaude" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/pushsdk" />
           </set>
         </option>
       </GradleProjectSettings>

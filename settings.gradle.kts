@@ -23,3 +23,4 @@ rootProject.name = "FinalSDK"
 include(":app")
 include(":androidsdk")
 include(":androidsdkclaude")
+include(":pushsdk")
