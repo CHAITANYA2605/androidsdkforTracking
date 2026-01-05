@@ -186,16 +186,14 @@ class EventTracker private constructor(
     }
 
     private suspend fun sendEventsToApi(events: List<Event>) {
-        val payload = ApiPayload(
-            userid = userId,
-            deviceid = deviceId,
-            deviceinfo = deviceInfo,
-            events = events
-        )
+        // First, perform the init/status check using the same ingest endpoint with ?check=init
+        val checkStatus = try {
+            apiClient.checkInit(config.apiUrl, deviceId)
+        } catch (e: Exception) {
+            -1
+        }
 
-        val status = apiClient.sendEvents(config.apiUrl, payload)
-
-        if (status == 300) {
+        if (checkStatus == 300) {
             // Server instructs SDK to disable itself. Do NOT clear main queue/persisted events.
             storage.setTrackingEnabled(false)
 
@@ -210,9 +208,34 @@ class EventTracker private constructor(
             throw DisabledByServerException()
         }
 
-        if (status !in 200..299) {
-            throw Exception("Failed to send events, status=$status")
+        if (checkStatus in 200..299) {
+            val payload = ApiPayload(
+                userid = userId,
+                deviceid = deviceId,
+                deviceinfo = deviceInfo,
+                events = events
+            )
+
+            val status = apiClient.sendEvents(config.apiUrl, payload)
+
+            if (status == 300) {
+                storage.setTrackingEnabled(false)
+                storage.purgeBufferedOlderThan(MAX_BUFFER_AGE_MS)
+                handler.removeCallbacksAndMessages(null)
+                scope.coroutineContext[Job]?.cancelChildren()
+                startRecheckLoop()
+                throw DisabledByServerException()
+            }
+
+            if (status !in 200..299) {
+                throw Exception("Failed to send events, status=$status")
+            }
+
+            return
         }
+
+        // If checkStatus is not 2xx or 300 (e.g., network error or 4xx/5xx), throw to trigger retry/backoff
+        throw Exception("Init check failed or returned unexpected status: $checkStatus")
     }
 
     private fun startRecheckLoop() {

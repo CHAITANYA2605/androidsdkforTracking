@@ -42,12 +42,12 @@ class ApiClient(private val appId: String) {
     }
 
     /**
-     * Small "init" / status check to ask the backend whether tracking should be allowed.
-     * Calls {apiUrl}/init (constructs path safely) and returns HTTP status code.
+     * Init/status check using the same ingest endpoint but with query parameter ?check=init
+     * so the server can route inside the same controller. If apiUrl already contains a query
+     * parameter, append with & instead of ?.
      */
     suspend fun checkInit(apiUrl: String, deviceId: String): Int = withContext(Dispatchers.IO) {
-        val base = if (apiUrl.endsWith("/")) apiUrl.dropLast(1) else apiUrl
-        val initUrl = "$base/init"
+        val initUrl = if (apiUrl.contains("?")) "${apiUrl}&check=init" else "${apiUrl}?check=init"
 
         val payload = mapOf("deviceid" to deviceId, "app" to appId)
         val json = gson.toJson(payload)
