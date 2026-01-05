@@ -7,7 +7,6 @@ import kotlinx.coroutines.withContext
 import okhttp3.*
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.RequestBody.Companion.toRequestBody
-import java.io.IOException
 import java.util.concurrent.TimeUnit
 
 class ApiClient(private val appId: String) {
@@ -18,7 +17,11 @@ class ApiClient(private val appId: String) {
         .writeTimeout(30, TimeUnit.SECONDS)
         .build()
 
-    suspend fun sendEvents(apiUrl: String, payload: ApiPayload) {
+    /**
+     * Sends events payload and returns the HTTP status code.
+     * Caller handles special codes (e.g. 300 → disable).
+     */
+    suspend fun sendEvents(apiUrl: String, payload: ApiPayload): Int = withContext(Dispatchers.IO) {
         val json = gson.toJson(payload)
         val mediaType = "application/json; charset=utf-8".toMediaType()
         val body = json.toRequestBody(mediaType)
@@ -28,14 +31,41 @@ class ApiClient(private val appId: String) {
             .post(body)
             .addHeader("Authorization", "Bearer $appId")
             .addHeader("X-App-ID", appId)
+            .addHeader("Content-Type", "application/json")
             .build()
 
-        withContext(Dispatchers.IO) {
-            val response = okHttpClient.newCall(request).execute()
+        val response = okHttpClient.newCall(request).execute()
+        val code = response.code
+        response.body?.close()
+        response.close()
+        code
+    }
 
-            if (!response.isSuccessful) {
-                throw IOException("Unexpected response code: ${response.code}")
-            }
-        }
+    /**
+     * Small "init" / status check to ask the backend whether tracking should be allowed.
+     * Calls {apiUrl}/init (constructs path safely) and returns HTTP status code.
+     */
+    suspend fun checkInit(apiUrl: String, deviceId: String): Int = withContext(Dispatchers.IO) {
+        val base = if (apiUrl.endsWith("/")) apiUrl.dropLast(1) else apiUrl
+        val initUrl = "$base/init"
+
+        val payload = mapOf("deviceid" to deviceId, "app" to appId)
+        val json = gson.toJson(payload)
+        val mediaType = "application/json; charset=utf-8".toMediaType()
+        val body = json.toRequestBody(mediaType)
+
+        val request = Request.Builder()
+            .url(initUrl)
+            .post(body)
+            .addHeader("Authorization", "Bearer $appId")
+            .addHeader("X-App-ID", appId)
+            .addHeader("Content-Type", "application/json")
+            .build()
+
+        val response = okHttpClient.newCall(request).execute()
+        val code = response.code
+        response.body?.close()
+        response.close()
+        code
     }
 }

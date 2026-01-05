@@ -6,5 +6,7 @@ data class TrackerConfig(
     val userId: String? = null,
     val maxBatchSize: Int = 100,
     val flushIntervalSeconds: Int = 30,
-    val retryDelayMs: Long = 2000
+    val retryDelayMs: Long = 2000,
+    // interval (seconds) for re-checking server status when SDK has been disabled by server response 300
+    val recheckIntervalSeconds: Int = 60
 )
