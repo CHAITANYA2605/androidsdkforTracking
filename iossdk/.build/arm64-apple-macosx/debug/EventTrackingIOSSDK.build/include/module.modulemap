@@ -1,0 +1,3 @@
+module EventTrackingIOSSDK {
+    header "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/include/EventTrackingIOSSDK-Swift.h"
+}

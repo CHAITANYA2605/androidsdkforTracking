@@ -19,7 +19,7 @@ class EventTracker private constructor(
     private val eventQueue = ConcurrentLinkedQueue<Event>()
     private val storage = EventStorage(context)
     private val deviceInfoProvider = DeviceInfoProvider(context)
-    private val apiClient = ApiClient(config.appId)
+    private val apiClient = ApiClient(config.appId, config.serverApiKey)
     private val scope = CoroutineScope(Dispatchers.IO + SupervisorJob())
     private val handler = Handler(Looper.getMainLooper())
 
@@ -113,9 +113,9 @@ class EventTracker private constructor(
 
     private suspend fun sendEventsToApi(events: List<Event>) {
         val payload = ApiPayload(
-            userid = userId,
-            deviceid = deviceId,
-            deviceinfo = deviceInfo,
+            userId = userId,
+            deviceId = deviceId,
+            deviceInfo = deviceInfo,
             events = events
         )
         apiClient.sendEvents(config.apiUrl, payload)

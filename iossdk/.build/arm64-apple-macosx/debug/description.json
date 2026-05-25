@@ -1,0 +1,657 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.EventPushCore-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/sources",
+      "importPath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/APIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/Storage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "EventPushCore",
+      "moduleOutputPath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules/EventPushCore.swiftmodule",
+      "objects" : [
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/APIClient.swift.o",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Models.swift.o",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Storage.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/include/EventPushCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "iossdk"
+      ],
+      "outputFileMapPath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/APIClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Storage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules/EventPushCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/APIClient.swift",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/Models.swift",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/Storage.swift"
+      ],
+      "tempsPath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.EventTrackingIOSSDK-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/sources",
+      "importPath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/AppLifecycleTracker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/EventTracker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/TrackerConfig.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules/EventPushCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "EventTrackingIOSSDK",
+      "moduleOutputPath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules/EventTrackingIOSSDK.swiftmodule",
+      "objects" : [
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/AppLifecycleTracker.swift.o",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/EventTracker.swift.o",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/TrackerConfig.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/include/EventTrackingIOSSDK-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "iossdk"
+      ],
+      "outputFileMapPath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/AppLifecycleTracker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/EventTracker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/TrackerConfig.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules/EventTrackingIOSSDK.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/AppLifecycleTracker.swift",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/EventTracker.swift",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/TrackerConfig.swift"
+      ],
+      "tempsPath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.PushNotificationIOSSDK-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/sources",
+      "importPath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushConfig.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushNotifications.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules/EventPushCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "PushNotificationIOSSDK",
+      "moduleOutputPath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules/PushNotificationIOSSDK.swiftmodule",
+      "objects" : [
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushConfig.swift.o",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushModels.swift.o",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushNotifications.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/include/PushNotificationIOSSDK-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "iossdk"
+      ],
+      "outputFileMapPath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushConfig.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushModels.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushNotifications.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules/PushNotificationIOSSDK.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushConfig.swift",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushModels.swift",
+        "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushNotifications.swift"
+      ],
+      "tempsPath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "EventPushCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "EventPushCore",
+      "-package-name",
+      "iossdk",
+      "-c",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/APIClient.swift",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/Models.swift",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/Storage.swift",
+      "-I",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/include/EventPushCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "iossdk",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "EventTrackingIOSSDK" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "EventTrackingIOSSDK",
+      "-package-name",
+      "iossdk",
+      "-c",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/AppLifecycleTracker.swift",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/EventTracker.swift",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/TrackerConfig.swift",
+      "-I",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/include/EventTrackingIOSSDK-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "iossdk",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "PushNotificationIOSSDK" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PushNotificationIOSSDK",
+      "-package-name",
+      "iossdk",
+      "-c",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushConfig.swift",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushModels.swift",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushNotifications.swift",
+      "-I",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/include/PushNotificationIOSSDK-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "iossdk",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "EventPushCore" : [
+
+    ],
+    "EventTrackingIOSSDK" : [
+      "EventPushCore"
+    ],
+    "PushNotificationIOSSDK" : [
+      "EventPushCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/APIClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/Storage.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/sources"
+    },
+    "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/AppLifecycleTracker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/EventTracker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/TrackerConfig.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/sources"
+    },
+    "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushConfig.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushModels.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushNotifications.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/sources"
+    },
+    "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

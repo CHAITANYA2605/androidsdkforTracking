@@ -10,7 +10,10 @@ import okhttp3.RequestBody.Companion.toRequestBody
 import java.io.IOException
 import java.util.concurrent.TimeUnit
 
-class ApiClient(private val appId: String) {
+class ApiClient(
+    private val appId: String,
+    private val serverApiKey: String
+) {
     private val gson = Gson()
     private val okHttpClient: OkHttpClient = OkHttpClient.Builder()
         .connectTimeout(30, TimeUnit.SECONDS)
@@ -26,7 +29,7 @@ class ApiClient(private val appId: String) {
         val request = Request.Builder()
             .url(apiUrl)
             .post(body)
-            .addHeader("Authorization", "Bearer $appId")
+            .addHeader("Authorization", "Bearer $serverApiKey")
             .addHeader("X-App-ID", appId)
             .build()
 

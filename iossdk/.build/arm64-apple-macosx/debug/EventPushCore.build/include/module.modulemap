@@ -1,0 +1,3 @@
+module EventPushCore {
+    header "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/include/EventPushCore-Swift.h"
+}

@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/primary.swiftdeps"
+  },
+  "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushConfig.swift": {
+    "dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushConfig.d",
+    "object": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushConfig.swift.o",
+    "swiftmodule": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushConfig.swiftdeps",
+    "diagnostics": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushConfig.dia"
+  },
+  "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushModels.swift": {
+    "dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushModels.d",
+    "object": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushModels.swift.o",
+    "swiftmodule": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushModels.swiftdeps",
+    "diagnostics": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushModels.dia"
+  },
+  "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/PushNotificationIOSSDK/PushNotifications.swift": {
+    "dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushNotifications.d",
+    "object": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushNotifications.swift.o",
+    "swiftmodule": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushNotifications~partial.swiftmodule",
+    "swift-dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushNotifications.swiftdeps",
+    "diagnostics": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/PushNotificationIOSSDK.build/PushNotifications.dia"
+  }
+}

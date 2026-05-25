@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/primary.swiftdeps"
+  },
+  "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/AppLifecycleTracker.swift": {
+    "dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/AppLifecycleTracker.d",
+    "object": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/AppLifecycleTracker.swift.o",
+    "swiftmodule": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/AppLifecycleTracker~partial.swiftmodule",
+    "swift-dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/AppLifecycleTracker.swiftdeps",
+    "diagnostics": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/AppLifecycleTracker.dia"
+  },
+  "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/EventTracker.swift": {
+    "dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/EventTracker.d",
+    "object": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/EventTracker.swift.o",
+    "swiftmodule": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/EventTracker~partial.swiftmodule",
+    "swift-dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/EventTracker.swiftdeps",
+    "diagnostics": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/EventTracker.dia"
+  },
+  "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventTrackingIOSSDK/TrackerConfig.swift": {
+    "dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/TrackerConfig.d",
+    "object": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/TrackerConfig.swift.o",
+    "swiftmodule": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/TrackerConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/TrackerConfig.swiftdeps",
+    "diagnostics": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventTrackingIOSSDK.build/TrackerConfig.dia"
+  }
+}

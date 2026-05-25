@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/primary.swiftdeps"
+  },
+  "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/APIClient.swift": {
+    "dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/APIClient.d",
+    "object": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/APIClient.swift.o",
+    "swiftmodule": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/APIClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/APIClient.swiftdeps",
+    "diagnostics": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/APIClient.dia"
+  },
+  "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/Models.swift": {
+    "dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Models.d",
+    "object": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Models.swift.o",
+    "swiftmodule": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Models.swiftdeps",
+    "diagnostics": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Models.dia"
+  },
+  "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/Sources/EventPushCore/Storage.swift": {
+    "dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Storage.d",
+    "object": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Storage.swift.o",
+    "swiftmodule": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Storage~partial.swiftmodule",
+    "swift-dependencies": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Storage.swiftdeps",
+    "diagnostics": "/Users/chaitanyaarora/Desktop/eventandpush/sdk/iossdk/.build/arm64-apple-macosx/debug/EventPushCore.build/Storage.dia"
+  }
+}
