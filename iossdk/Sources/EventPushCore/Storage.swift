@@ -1,4 +1,7 @@
 import Foundation
+#if os(iOS)
+import UIKit
+#endif
 
 public final class TrackerStorage: @unchecked Sendable {
     private let defaults: UserDefaults
