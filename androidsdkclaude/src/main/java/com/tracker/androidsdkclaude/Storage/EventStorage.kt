@@ -11,6 +11,8 @@ private const val KEY_DEVICE_ID = "device_id"
 private const val KEY_USER_ID = "user_id"
 private const val KEY_TRACKING_ENABLED = "tracking_enabled"
 private const val KEY_BUFFERED_EVENTS = "buffered_events"
+private const val KEY_INITIALIZED = "sdk_initialized"
+
 
 class EventStorage(context: Context) {
     private val prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
@@ -93,4 +95,13 @@ class EventStorage(context: Context) {
         val recent = loadBufferedEvents().filter { now - it.timestamp <= cutoffMs }
         saveBufferedEvents(recent)
     }
+    // ================= INIT HANDSHAKE (ONE TIME) =================
+
+    fun isInitialized(): Boolean =
+        prefs.getBoolean(KEY_INITIALIZED, false)
+
+    fun setInitialized(value: Boolean) {
+        prefs.edit().putBoolean(KEY_INITIALIZED, value).apply()
+    }
+
 }
